@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+    // String[] args массив всех аргументов
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
@@ -29,7 +30,7 @@ public class Main {
         int wins = 0;
         boolean gameOver = false;
         String result = "";
-
+        //бой1
         for (int i = 0; i < enemyNames.length && !gameOver; i++) {
             int enemyHp = enemyHpArr[i];
             int enemyDamage = enemyDamageArr[i];
